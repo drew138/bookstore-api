@@ -5,3 +5,5 @@ build/
 # Dockerfile
 # nginx.conf
 # docker-compose.yml
+sendgrid.env
+*.env

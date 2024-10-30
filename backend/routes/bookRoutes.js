@@ -8,9 +8,8 @@ import {
 const router = express.Router();
 
 router.route("/").get(getBooks);
-router.route("/sendEmail").get(sendBooksEmail);
+router.route("/sendEmail").post(sendBooksEmail);
 
 router.route("/:id").get(getBooksById);
 
 export default router;
-
